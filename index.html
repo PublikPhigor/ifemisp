@@ -28,6 +28,26 @@
         </div>
     </header>
 
+    <!-- ==== MOBILE HEADER ==== -->
+    <div class="mobile-header">
+        <div class="mobile-logo"><img src="img/ifemisp logo-02.png" alt=""></div>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+    </div>
+
+    <!-- ==== MOBILE NAVBAR -->
+    <div class="mb-navbar">
+        <span class="close-nav-btn">&times;</span>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="login.html" class="btn">Login</a></li>
+        </ul>
+    </div>
+
     <!-- LANDING PAGE ==== -->
     <div class="lp container-fluid p-0">
         <h1 class="lp-text">Property listing with ease.</h1>
@@ -84,7 +104,7 @@
                                 <i class="fa fa-star-o"></i>
                             </div>
                         </div>
-                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#">[more]</a></p>
+                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#" class="read-more">[more]</a></p>
                         <a href="#" class="btn-t btn-pc">Book Inspection</a>
                     </div>
                 </div>
@@ -111,7 +131,7 @@
                                 <i class="fa fa-star-o"></i>
                             </div>
                         </div>
-                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#">[more]</a></p>
+                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#" class="read-more">[more]</a></p>
                         <a href="#" class="btn-t btn-pc">Book Inspection</a>
                     </div>
                 </div>
@@ -137,7 +157,7 @@
                                 <i class="fa fa-star-o"></i>
                             </div>
                         </div>
-                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#">[more]</a></p>
+                        <p class="pc-desc">A 2519 sq ft land located along the waterside in Ilorin with complete C of O and government residential permit and duly registered with the <a href="#" class="read-more">[more]</a></p>
                         <a href="#" class="btn-t btn-pc">Book Inspection</a>
                     </div>
                 </div>
@@ -167,44 +187,40 @@
     </div>
 
     <!-- ==== -->
-    <div class="container">
+    <div class="container my-5">
         <h3 class="st-2">We have the services you need</h3>
         <div class="container-fluid services">
-            <div class="col-6 col-lg-3">
-                <div class="container s-card">
-                    <div class="sc-img"><img src="img/Screen Shot 2021-01-19 at 5.19.40 AM.png" alt=""></div>
-                    <div class="sc-content">
-                        <p class="text-center">Land Property Sales</p>
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="container s-card">
+                        <div class="sc-img"><img src="img/card.png" alt=""></div>
+                        <div class="sc-content">
+                            <p class="text-center">Land Property Sales</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="container s-card">
-                    <div class="sc-img"><img src="img/Screen Shot 2021-01-19 at 5.19.40 AM.png" alt=""></div>
-                    <div class="sc-content">
-                        <p class="text-center">Real Estate Investments</p>
+                <div class="col-6 col-lg-3">
+                    <div class="container s-card">
+                        <div class="sc-img"><img src="img/card.png" alt=""></div>
+                        <div class="sc-content">
+                            <p class="text-center">Real Estate Investments</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="container s-card">
-                    <div class="sc-img"><img src="img/Screen Shot 2021-01-19 at 5.19.40 AM.png" alt=""></div>
-                    <div class="sc-content">
-                        <p class="text-center">Consultancy</p>
+                <div class="col-6 col-lg-3">
+                    <div class="container s-card">
+                        <div class="sc-img"><img src="img/card.png" alt=""></div>
+                        <div class="sc-content">
+                            <p class="text-center">Consultancy</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="container s-card">
-                    <div class="sc-img"><img src="img/Screen Shot 2021-01-19 at 5.19.40 AM.png" alt=""></div>
-                    <div class="sc-content">
-                        <p class="text-center">Real Estate Investment Training</p>
-                    </div><div class="col-6 col-lg-3">
-                        <div class="container s-card">
-                            <div class="sc-img"><img src="img/Screen Shot 2021-01-19 at 5.19.40 AM.png" alt=""></div>
-                            <div class="sc-content">
-                                <p class="text-center">Land Property Sales</p>
-                            </div>
+                <div class="col-6 col-lg-3">
+                    <div class="container s-card">
+                        <div class="sc-img"><img src="img/card.png" alt=""></div>
+                        <div class="sc-content">
+                            <p class="text-center">Real Estate Investment Training</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -215,11 +231,59 @@
 
     <!-- ==== DROPDOWN ==== -->
     <div class="container">
-        <h3 class="st-2">We have the resources you need to start planning your purchase</h3>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="container dp-1">
+                    <h3 class="st-2">Frequently asked questions about our fees</h3>
+                    <div class="dropdown-cont">
+                        <div class="dropdown">
+                            <div class="dp-a">
+                                <a href="#drop1" class="dp-t">1. How much does a land cost? <i class="fa fa-angle-down"></i></a>
+                            </div>
+                            <div id="drop1" class="dp-content">
+                                <p class="sm-t">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquam nihil temporibus a vero veniam, molestias voluptatibus maxime exercitationem fuga ea excepturi. Iusto consequatur odit earum. Eius doloribus officiis quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="dp-a">
+                                <a href="#drop2" class="dp-t">2. Are there any extra fees after initial payment? <i class="fa fa-angle-down"></i></a>
+                            </div>
+                            <div id="drop2" class="dp-content">
+                                <p class="sm-t">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquam nihil temporibus a vero veniam, molestias voluptatibus maxime exercitationem fuga ea excepturi. Iusto consequatur odit earum. Eius doloribus officiis quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="dp-a">
+                                <a href="#drop3" class="dp-t">3. Are there installments payment plan? <i class="fa fa-angle-down"></i></a>
+                            </div>
+                            <div id="drop3" class="dp-content">
+                                <p class="sm-t">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aliquam nihil temporibus a vero veniam, molestias voluptatibus maxime exercitationem fuga ea excepturi. Iusto consequatur odit earum. Eius doloribus officiis quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="container dp-img">
+                    <img src="img/house.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== -->
+    <div class="container my-5">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row align-items-end">
                 <div class="col-12 col-lg-6">
-                    <div class="container">
+                    <h3 class="st-2">We have the resources you need to start planning your purchase</h3>
+                    <div class="container p-0 rc-img">
                         <img src="img/house.png" alt="">
                     </div>
                 </div>
@@ -234,37 +298,33 @@
                         </div>
                         <p class="sm-t">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta ipsa culpa quis ab dolore quas neque, earum magni libero magnam quod veniam, distinctio pariatur unde voluptas commodi, provident sunt atque. Accusantium fugiat vero corrupti illum fuga ab odit, dolorem, animi facilis magnam corporis natus atque maxime dolor, architecto nesciunt incidunt.</p>
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-12 col-lg-4 mb-3">
                                 <div class="container ps-card">
                                     <img src="img/card.png" alt="">
                                     <h3 class="st-4">Securing your land assets</h3>
                                     <div>
                                         <span class="s-date"><i class="fa fa-clock"></i> 1hr ago</span>
-                                        <span class="s-
-
-                                        <span class="s-date"></span>date"><i class="fa fa-eye"></i> 3322 views</span>
+                                        <span class="s-date"><i class="fa fa-eye"></i> 3322 views</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-12 col-lg-4 mb-3">
                                 <div class="container ps-card">
                                     <img src="img/card.png" alt="">
                                     <h3 class="st-4">Securing your land assets</h3>
                                     <div>
                                         <span class="s-date"><i class="fa fa-clock"></i> 1hr ago</span>
-                                        <span class="s-
-
-                                        <span class="s-date"></span>date"><i class="fa fa-eye"></i> 3322 views</span>
+                                        <span class="s-date"><i class="fa fa-eye"></i> 3322 views</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-12 col-lg-4 mb-3">
                                 <div class="container ps-card">
                                     <img src="img/card.png" alt="">
                                     <h3 class="st-4">Securing your land assets</h3>
                                     <div>
                                         <span class="s-date"><i class="fa fa-clock"></i> 1hr ago</span>
-                                        <span class="s-date"></span>date"><i class="fa fa-eye"></i> 3322 views</span>
+                                        <span class="s-date"><i class="fa fa-eye"></i> 3322 views</span>
                                     </div>
                                 </div>
                             </div>
@@ -277,14 +337,16 @@
 
     <!-- ==== NEWSLETTER ==== -->
     <div class="container newsletter text-center">
-        <h3 class="nsl-t">Subscribe to our newsletter</h3>
-        <p class="sm-t">Get first hand updates on properties listings around you</p>
-        <form action="POST" class="nsl-form">
-            <div class="d-flex">
-                <input type="text" placeholder="Enter your email here">
-                <input type="submit" value="Submit" class="btn">
-            </div>
-        </form>
+        <div class="nsl-content">
+            <h3 class="nsl-t">Subscribe to our newsletter</h3>
+            <p class="sm-t">Get first hand updates on properties listings around you</p>
+            <form action="POST" class="nsl-form">
+                <div class="d-flex">
+                    <input type="text" placeholder="Enter your email here">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- ==== FOOTER ==== -->
@@ -298,21 +360,26 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-4">
-                    <div class="container">
+                    <div class="container ft-ql">
                         <h3 class="ft-t">Quick links</h3>
-                        <p class="sm-t">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, voluptates ex? Reprehenderit neque nobis nostrum sed, doloremque dicta quidem quasi?</p>
+                        <ul>
+                            <li><a href="index.html" class="sm-t">Home</a></li>
+                            <li><a href="about.html" class="sm-t">About</a></li>
+                            <li><a href="properties.html" class="sm-t">Properties</a></li>
+                            <li><a href="login.html" class="sm-t">Login</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-6 col-lg-4">
-                    <div class="container">
+                <div class="col-12 col-lg-4">
+                    <div class="container ft-contact">
                         <h3 class="ft-t">Contact Us</h3>
-                        <a href="#" class="sm-t">+234 123 4567 90</a>
-                        <a href="#" class="sm-t">+234 123 4567 90</a>
+                        <a href="#" class="sm-t"><i class="fa fa-phone"></i>+234 123 4567 90</a>
+                        <a href="#" class="sm-t"><i class="fa fa-phone"></i>+234 123 4567 90</a>
                         <div class="s-link">
                             <span>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
                             </span>
                         </div>
                     </div>
@@ -320,5 +387,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
