@@ -355,6 +355,9 @@ header {
     .pt-1 {
         font-weight: 600;
     }
+    .moreBox, .moreBox2 {
+        display: none;
+    }
     .prop-card {
         height: 420px;
         overflow: hidden;
@@ -431,7 +434,82 @@ header {
                 text-align: center;
                 max-width: 200px;
             }
-
+.pd-img {
+    width: 100%;
+    padding: 0;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+    .pd-img img {
+        height: 100%;
+        width: 100%;
+    }
+    .pd-img button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+        background-color: rgba(0,0,0,.5);
+        color: #fff !important;
+        border-radius: 2px;
+        outline: 0;
+        border: none;
+    }
+        .prev-pd-btn {
+            left: 2%;
+        }
+        .next-pd-btn {
+            right: 2%;
+        }
+    .pd-count {
+        position: absolute;
+        bottom: 1%;
+        left: 2%;
+    }
+        .pd-count .fa, .pd-count span {
+            color: #111;
+            font-size: 1;
+        }
+    .pd-content {
+        margin-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+        .pd-content div {
+            max-width: 100%;
+        }
+        .pd-desc .st-2, .pd-desc .st-3 {
+            margin-bottom: 10px !important;
+        }
+        .pd-desc .st-3 {
+            margin-right: 10px;
+        }
+        .pd-desc .fa-heart-o {
+            margin-left: 10px;
+        }
+    .price-card {
+        height: 300px;
+        overflow: hidden;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        .prc-h {
+            background-color: #3b55e6;
+            text-align: center;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .prc-c {
+            padding: 10px 0;
+            background-color: #eae8e8;
+        }
+            .price {
+                border-bottom: 1px solid #999;
+                margin-bottom: 10px;
+                padding: 0 10px;
+            }
 /* ==== top real estate bla bla ==== */
 .db-section {
     margin: 10px auto;
